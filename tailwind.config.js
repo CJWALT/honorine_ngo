@@ -9,6 +9,12 @@ module.exports = {
           'mada': ['Mada', 'sans-serif'],
           'lato': ['Lato', 'sans-serif']
         
+        },
+        width:{
+          // '80':'80%',
+          '85':'85%',
+          '50': '50%',
+          '40':'40%'
         }
     },
   },

@@ -13,18 +13,21 @@ function Header() {
     
 
   return (
-    <div className='bg-orange-400 h-10 w-full flex '>
-            <div className='mx-auto items-center justify-between flex w-80 relative'>
-                <div>Ho<span className='text-white font-bold text-xl'>nor</span></div>
+    <div className='bg-white h-24 w-full flex'>
+        
+            <div className=' flex  justify-between items-center w-80 mx-auto md:w-85  relative'>
+                <div>
+                  <img src='./img/honors.jpg' alt='honors logo' className='w-24 h-auto'/>
+                </div>
 
-                <div className={`${openNav ? 'block' : 'hidden' } h-auto px-4 py-3 z-10 rounded bg-black text-white font-bold absolute top-0 right-0 flex flex-col gap-4 lg:block`}>
+                <div className={`${openNav ? 'block' : 'hidden' } h-auto px-4 py-3 z-30 self-center rounded bg-black text-white lg:text-black font-bold absolute top-0 right-0 md:right-0 flex flex-col gap-4 lg:px-0 lg:py-0 lg:bg-transparent lg:flex lg:gap-3 lg:flex-row lg:relative md:absolute`}>
                     <Link to='/' onClick={toggleNav}>Home</Link>
-                    <Link to='/' onClick={toggleNav}>About us</Link>
                     <Link to='/ourvision' onClick={toggleNav}>Our Vision</Link>
+                    <Link to='/projects' onClick={toggleNav}>Projects</Link>
                 </div>  
-                <span className='bg-red-700 w-3 h-3 rounded cursor-pointer' onClick={toggleNav}></span>  
+                 <span className=' bg-red-700 w-5 h-5 rounded cursor-pointer lg:hidden sm:block' onClick={toggleNav}></span> 
             </div>
-            
+                            
     </div>
   )
 }
