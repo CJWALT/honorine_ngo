@@ -25,7 +25,7 @@ function App() {
           <Routes>
 
           <Route path="/" element={<Home onclick={handleButtonClick} />}/>
-          <Route path="/ourvision" element={<OurVision/>}/>
+          <Route path="/ourvision" element={<OurVision onclick={handleButtonClick} />}/>
           <Route path="/projects" element={<Projects/>}/>
           </Routes>
         <Footer onclick={handleButtonClick}/>
