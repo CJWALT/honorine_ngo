@@ -10,6 +10,9 @@ module.exports = {
           'lato': ['Lato', 'sans-serif']
         
         },
+        height:{ 
+          '35': '35rem'
+        },
         width:{
           // '80':'80%',
           '85':'85%',

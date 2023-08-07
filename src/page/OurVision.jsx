@@ -15,7 +15,7 @@ function OurVision(prop) {
                     By fostering an environment of support, education, and skill-building, we aspire to break the cycle of violence and create lasting positive change within our community. Together, we strive towards a society where every young girl and woman can thrive and reach their full potential.</p>
                     
                     <div className='flex items-center justify-center'>
-                    <Button onclick={prop.onclick} children='Donate' bgColor='orange' btnPad='px-14 py-2'  />
+                    <Button onclick={prop.onclick} children='Donate' bgColor='bg-orange-500' btnPad='px-14 py-2'  />
                     </div>
                     
                 </div>

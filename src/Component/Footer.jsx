@@ -30,7 +30,7 @@ function Footer(prop) {
                   </div>
                   <div className='mt-7 md:mt-0'>
                       <h4 className='font-bold font-poppins mb-4 text-[1.5rem]'>Join Us</h4>
-                      <Button children='Donate' bgColor='orange' btnBorderColor='orange' border='border-2' bdRad='rounded-lg' btnOpacity='opacity-20' btnPad='px-5 py-1' onclick={prop.onclick}/>
+                      <Button children='Donate' bgColor='bg-orange-500' btnBorderColor='border-orange-400' border='border-2' bdRad='rounded-lg' btnOpacity='bg-opacity-30' btnPad='px-5 py-1' onclick={prop.onclick}/>
                   </div>
 
                   

@@ -1,5 +1,6 @@
 import React from 'react'
 import {TbCircleDotFilled} from 'react-icons/tb'
+import Button from '../Component/Button';
 
 function Projects() {
 
@@ -28,7 +29,10 @@ function Projects() {
                         <h6 className='font-bold font-lato text-yellow-700'>Family Planning Method: </h6>
                         <small className='text-[.8rem] md:text-justify align-center font-mada leading-tight'>As we advocate for gender equality and address the issues surrounding GBV, our family planning program plays a vital role in empowering women and fostering a brighter, more inclusive future for all.
                         </small>
-                        <button className='block bg-orange-600 px-4 py-1 mt-3 rounded font-bold text-white' onClick={() => handleWhatsAppClick('Family Plannin')}>Learn More</button>
+                        <div className='mt-3'>
+                        <Button children='Learn More' bgColor='bg-orange-600' onclick={()=>handleWhatsAppClick('Family Planning')} />
+                        </div>
+                        
                     </div>
                     <div className='  md:w-50 px-0 py-0 md:px-5 md:py-5'>
                         <img src='/img/ante.jpg' className='w-80 mb-4 opacity-70 md:w-full  object-cover'  alt='family planing'/>
@@ -37,11 +41,11 @@ function Projects() {
                             We provide unwavering support to expectant mothers,
                             Our commitment to promoting maternal health and fostering a supportive environment for pregnant women is central to our mission in combatting GBV.
                         </small>
+
+                        <div className='mt-3'>
+                        <Button children='Learn More' bgColor='bg-orange-600' onclick={()=>handleWhatsAppClick('Antenatal')} />
+                        </div>
                         
-                        
-                        <button className='block bg-orange-600 px-4 py-1 mt-3 rounded font-bold text-white' onClick={() => handleWhatsAppClick('Antenatal')}>Learn More</button>
-                        
-                    
                     </div>
                 </div>
                 
