@@ -6,7 +6,7 @@ function Projects() {
 
         const handleWhatsAppClick = (projName) =>{
 
-            const phoneNum = '+237653886382'; 
+            const phoneNum = '+237653886282'; 
             const defaultMessage =`Care to share more about this ${projName} project?`;
             const url =  `https://api.whatsapp.com/send?phone=${phoneNum}&text=${defaultMessage}`
             window.open(url)
